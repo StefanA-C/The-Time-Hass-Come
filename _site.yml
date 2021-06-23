@@ -1,0 +1,12 @@
+name: "."
+title: "The Time Hass Come"
+description: |
+  The Time Hass Come
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
