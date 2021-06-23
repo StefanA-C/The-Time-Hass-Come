@@ -1,13 +1,7 @@
 ---
 title: "Analysis"
 description: |
-  A new article created using the Distill format.
-author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
-date: "`r Sys.Date()`"
+  Avocados have a surprising amount of complexity, not just in taste.
 output: distill::distill_article
 ---
 
@@ -15,12 +9,15 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 ```
+# Volume of Avocados Sold
+I started off this analysis by looking at what might be the first two most obvious variables, the volume of the avocados sold, and how this changes over time. This graph represents an aggregate of the totality of the USA. Shown are two different curves, the coral colored curve being normal, conventional avocados, while the blue line represents the sale volume of avocados that are grown organically. Early on each year, there appears to be a large spike in sale volume. This spike concides with the culmination of the Superbowl. Hass avocados regularly break [records](https://www.vice.com/en/article/v74b93/the-real-winner-of-the-super-bowl-is-the-avocado-industry) as they are an ideal snack food to consume while watching a sporting event.
 
 ```{r graph1, echo = FALSE}
-read_rds("price_time_graph.rds")
-```
-```{r graph2, echo = FALSE}
 read_rds("volume_time_graph.rds")
+```
+# Price 
+```{r graph2, echo = FALSE}
+read_rds("price_time_graph.rds")
 ```
 ```{r graph3, echo = FALSE}
 read_rds("price_volume_graphC.rds")
