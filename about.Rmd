@@ -1,10 +1,18 @@
 ---
 title: "About this site"
-description: |
-  Some additional details about the website
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+## About the Project
 
+Avocados play an undervalued role with our society, whether it be the making of guacamole, or a way to chastise millennials for not owning a house ("don't buy so much avocado toast, its holding you back from being a millionare!"). Regardless, the humble avocado undergoes many cyclic fluctuations in price and sale volume throughout the year, making it an interesting topic to analyse. 
+
+The data was collected from [kaggle.com](https://www.kaggle.com/neuromusic/avocado-prices), and I cleaned, analysed and graphed it through the use of r, a coding language for statistical analysis. 
+
+This analysis focused primarily on the geographical area of the United States of America and on the popular cultivar of the Hass. The data spans roughly from 2015 to 2018, allowing for through analysis. 
+
+## About Me
+
+Hello readers! I am [Stefan](https://www.linkedin.com/in/stefan-arroyo-cottier/), a soon-to-be mechanical engineering student at the University of Waterloo. I enjoy learning new things and am passionate about all things STEM. You can check out the code used to produce this website and data analysis through the github repository [here](https://github.com/StefanA-C/final_project_website).
