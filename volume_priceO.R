@@ -19,7 +19,6 @@ clean_data <- data %>%
 gplot_o <- clean_data %>%
   filter(region != "TotalUS") %>%
   filter(type == "Organic") %>%
-  filter(year < "2017") %>% 
   select(-year) %>% 
   ggplot(aes(y = `Total Volume`/1000, x=AveragePrice, color = region)) +
   geom_point(show.legend = F, alpha = 0.7) +
