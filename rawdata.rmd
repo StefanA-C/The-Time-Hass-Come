@@ -14,12 +14,14 @@ library(rmarkdown)
 library(gt)
 ```
 ## Avocado Trends in the United States
+
 ```{r, echo = FALSE}
 raw_data <- read_csv("avocado.csv")
 
 paged_table(raw_data) 
 ```
-Data taken from: [https://www.kaggle.com/neuromusic/avocado-prices](https://www.kaggle.com/neuromusic/avocado-prices)
+Data taken from: [https://www.kaggle.com/neuromusic/avocado-prices](https://www.kaggle.com/neuromusic/avocado-prices).   
+*Please note this data only encapsulates the first 10, 000 rows. For the full dataset, I implore you to visit the above mentioned link.*
 
 
 
