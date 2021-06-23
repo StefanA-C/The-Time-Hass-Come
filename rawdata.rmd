@@ -1,23 +1,26 @@
 ---
 title: "Raw Data"
 description: |
-  A new article created using the Distill format.
-author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
+  The Raw Data Used for this Analysis.
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(knitr)
+library(rmarkdown)
+library(gt)
 ```
+## Avocado Trends in the United States
+```{r, echo = FALSE}
+raw_data <- read_csv("avocado.csv")
 
-Distill is a publication format for scientific and technical writing, native to the web. 
+paged_table(raw_data) 
+```
+Data taken from: [https://www.kaggle.com/neuromusic/avocado-prices](https://www.kaggle.com/neuromusic/avocado-prices)
 
-Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
 
 
 
