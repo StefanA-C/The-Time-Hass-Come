@@ -1,0 +1,35 @@
+---
+title: "Analysis"
+description: |
+  A new article created using the Distill format.
+author:
+  - name: Nora Jones 
+    url: https://example.com/norajones
+    affiliation: Spacely Sprockets
+    affiliation_url: https://example.com/spacelysprokets
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+```
+
+```{r graph1, echo = FALSE}
+read_rds("price_time_graph.rds")
+```
+```{r graph2, echo = FALSE}
+read_rds("volume_time_graph.rds")
+```
+```{r graph3, echo = FALSE}
+read_rds("price_volume_graphC.rds")
+```
+```{r graph4, echo = FALSE}
+read_rds("price_volume_graphO.rds")
+```
+
+
+
+
+

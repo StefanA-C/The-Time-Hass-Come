@@ -9,15 +9,3 @@ site: distill::distill_website
 knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 ```
-```{r graph1, echo = FALSE}
-read_rds("price_time_graph.rds")
-```
-```{r graph2, echo = FALSE}
-read_rds("volume_time_graph.rds")
-```
-```{r graph3, echo = FALSE}
-read_rds("price_volume_graphC.rds")
-```
-```{r graph4, echo = FALSE}
-read_rds("price_volume_graphO.rds")
-```

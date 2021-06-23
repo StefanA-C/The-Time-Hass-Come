@@ -6,15 +6,29 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-23T09:22:50-04:00"
+      "last_modified": "2021-06-23T09:57:15-04:00"
     },
     {
       "path": "index.html",
       "title": "The Time Hass Come",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "description": "An Introspective Investigation Into the Avocado Trends of the United States of America\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-23T09:24:28-04:00"
+      "last_modified": "2021-06-23T09:58:54-04:00"
+    },
+    {
+      "path": "rawdata.html",
+      "title": "Untitled",
+      "description": "A new article created using the Distill format.\n",
+      "author": [
+        {
+          "name": "Nora Jones",
+          "url": "https://example.com/norajones"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-23T09:58:55-04:00"
     }
   ],
   "collections": []
