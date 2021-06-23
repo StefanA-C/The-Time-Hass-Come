@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 ```
 
-# Volume of Avocados Sold
+## Volume of Avocados Sold
 I started off this analysis by looking at what might be the first two most obvious variables, the volume of the avocados sold, and how this changes over time. This graph represents an aggregate of the totality of the USA. Shown are two different curves, the coral colored curve being normal, conventional avocados, while the blue line represents the sale volume of avocados that are grown organically. Early on each year, there appears to be a large spike in sale volume. This spike concides with the culmination of the Superbowl. Hass avocados regularly break [records](https://www.vice.com/en/article/v74b93/the-real-winner-of-the-super-bowl-is-the-avocado-industry) as they are an ideal snack food to consume while watching a sporting event.
 
 Click [here](https://raw.githubusercontent.com/StefanA-C/final_project_website/main/Volume_time_image.png) to see the still graph for further analysis.
@@ -19,7 +19,7 @@ Click [here](https://raw.githubusercontent.com/StefanA-C/final_project_website/m
 read_rds("volume_time_graph.rds")
 ```
 
-# Price of Avocados Sold
+## Price of Avocados Sold
 Having established the overall trend of the volume sold, it serves us well to see how the price of the avocados sold reflect this change in volume. Looking at this graph and the previous one side-by-side, one can see an inverse relationship between the price and volume. As the volume increases for the Superbowl, the price decreases, most likely a below-the-line marketing strategy to drive sales up. Contrastingly, when the sales hit low points, in the fourth quarter of the year, the prices also increase, presumably to maintain revenues. It is also worth while to look at the difference in price between conventional and organic avocado prices. The difference roughly constant with organic avocado sellers attempting to match conventional avocado seller's strategies.
 
 Click [here](https://raw.githubusercontent.com/StefanA-C/final_project_website/main/price_time_image.png) to see the still graph for further analysis.
@@ -28,7 +28,7 @@ Click [here](https://raw.githubusercontent.com/StefanA-C/final_project_website/m
 read_rds("price_time_graph.rds")
 ```
 
-# Price and Volume
+## Price and Volume
 The following two graphs highlight the direct relationship between price and volume, the first for conventional avocados, the second for organic avocados. Each dot represents an individual state of the USA. As years progress, we can see the aforementioned movement as the mass of states moves horizontally. This graph combines the ideals of the previous two graphs, allowing us to see the impact on each individual state.
 
 ```{r graph3, echo = FALSE}
@@ -38,7 +38,7 @@ read_rds("price_volume_graphC.rds")
 read_rds("price_volume_graphO.rds")
 ```
 
-# Epilogue 
+## Epilogue 
 
 Through these graphs and subsequent analysis, we can see how avocado sellers and companies respond to the age old issue of supply and demand. As volume increases, the price decreases, and as the volume decreases, the price unsurprisingly also increases. Furthermore, this analysis highlights the effectiveness of avocado's marketing during the Superbowl. 
 

@@ -1,11 +1,23 @@
 ---
 title: "The Time Hass Come"
 description: |
-  An Introspective Investigation Into the Avocado Trends of the United States of America
+  An Investigation Into the Avocado Trends of the United States of America
 site: distill::distill_website
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
+library(distill)
+library(png)
+library(knitr)
 ```
+
+### The Fruit That Should Have Gone Extinct
+
+```{r}
+include_graphics('appetite-1238257_1920.jpg')
+
+```
+
+*Image by [Shutterbug75](https://pixabay.com/users/shutterbug75-2077322/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1238257) from [Pixabay](https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1238257)*
